@@ -1,0 +1,344 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+/* general/overall styling*/
+section{
+    margin: 1rem 5%;    
+}
+/* div{
+    border: 1px solid blue;
+} */
+.brown-section{
+    background-color: #FFF9F4;
+    color: black;
+    border-radius: 2rem;
+}
+h2{
+    font-size: 2rem;
+    letter-spacing: 0.25rem;
+    font-weight: 800;
+}
+/* .main-nav */
+img{
+    width: 50vh;
+    height: auto;
+}
+.main-nav{
+    width: 90%;
+    margin: 1rem 5%;
+}
+
+.main-nav p{
+    font-size: 1.5rem;
+    padding: 1rem 0;
+}
+ul{
+    padding: 0;
+    margin-top: 1rem;
+    list-style-type: none;
+}
+ul li{
+    margin-bottom: 1rem;
+    /* border-bottom: 1px solid #333; */
+}
+li a{
+    font-size: 1.25;
+    color: #333;
+    text-decoration: none;
+}
+li a:hover{
+    border-bottom: 2px solid red;
+    color: #880E4F;
+}
+.btn a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.25rem;
+}
+/* header section */
+#header{
+    padding: 8%;
+}
+#header img{
+    width: 84%;
+    height: auto;
+}
+#header div{
+    width: 84%;
+    height: auto;
+}
+#header h2:nth-child(2){
+    margin-bottom: 2rem;
+}
+/* who we are section */
+.white-section{
+    text-align: center;
+}
+#who-we-are h2{
+    font-size: 3rem;
+    margin: 10% auto;
+}
+.cards{
+    width: 90%;
+    margin: 0 5%;
+    margin-bottom: 1rem;
+    padding: 2%;
+    border-radius: 1rem;
+    box-shadow: 5px 5px 20px #333;
+    transition: 0.3s;
+}
+.cards:hover{
+    box-shadow: 10px 10px 20px 5px #333;
+}
+.cards i{
+    padding: 2rem 2rem;
+    border: none;
+    border-radius: 50%;
+    background-color: #FFF3EA;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+.cards h3{
+    font-size: 1.25rem;
+    font-weight: 800;
+    letter-spacing: 0.02rem;
+}
+.cards p{
+    font-size: 1rem;
+}
+
+/* About Us section */
+.content-container{
+    width: 100%;
+}
+#About-Us .about-us-text{
+    width: 90%;
+    margin: 1rem 5%;
+    text-align: start;
+}
+#About-Us img{
+    width: 100%;
+    height: auto;
+}
+
+.about-us-text p{
+    font-size: 0.8rem;
+    letter-spacing: 0.01rem;
+    margin-bottom: 1rem;
+}
+.about-us-text h2{
+    font-size: 3rem;
+    margin: 1rem 0;
+}
+.about-us-text .btn{
+    margin-bottom: 1rem;
+}
+/* Our Services section */
+#Services h2{
+    font-size: 3rem;
+    margin: 10% auto;
+}
+/* our work section */
+.work-headers{
+    margin: 1rem 0;
+   
+}
+#our-work h2{
+    margin: 1rem 0;
+}
+#our-work a{
+    font-weight: 600;
+    font-size: 1rem;
+    text-decoration: none;
+    color: saddlebrown;
+}
+#our-work a:hover{
+    color: #B71C1C;
+}
+.work-cards{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 1rem;
+}
+.cards-2{
+    place-content: stretch;
+    border-radius: 1rem;
+    position: relative;
+    height: 40vh;
+}
+
+#card-4{
+    grid-column: 1/2;
+    background: rgb(159,206,227) url(images/notes.png) no-repeat center;
+    background-size: 90% auto;
+}
+#card-5{
+    grid-column: 2/3;
+    background: rgb(159,206,227) url(images/shoe.png) no-repeat center;
+    background-size: 90% auto;
+}
+#card-6{
+    grid-column: 1/2;
+    background: rgb(236, 240, 241) url(images/notes.png) no-repeat center;
+    background-size: 90% auto;
+}
+#card-7{
+    grid-column: 2/3;
+    background: rgb(236, 240, 241) url(images/notes.png) no-repeat center;
+    background-size: 90% auto;
+}
+#card-8{
+    grid-column: 1/2;
+    background: #EDCDDD url(images/notes.png) no-repeat center;
+    background-size: 90% auto;
+}
+#card-9{
+    grid-column: 2/3;    
+    background: #FAA16B url(images/shoe.png) no-repeat center;
+    background-size: 90% auto;
+}
+#card-10{
+    grid-column: 1/2;
+    grid-row: 4/5;
+    background: #FCC3C6 url(images/notes.png) no-repeat center;
+    background-size: 90% auto;
+
+}
+.cards-2 p{
+    margin: 0.8rem;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.cards-2 h4{
+    margin: 0.8rem;
+    position: absolute;
+    left: 0;
+    bottom: 2rem;
+}
+/* Our team section */
+#our-team .our-team-container{
+    width: 95%;
+    height: auto;
+    margin: 1rem 2.5%;
+}
+#our-team img{
+    background: #FFF9F4;
+    width: 100%;
+    border-radius: 0.5rem;
+}
+
+.our-team-text h4{
+    font-weight: 800;
+    font-size: 1.5rem;
+    margin: 1rem 0;
+}
+.our-team-text h2{
+    font-weight: 800;
+    font-size: 3rem;
+    margin: 2rem 0;
+}
+.our-team-text h5{
+    font-weight: 600;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    margin: 1rem 0;
+}
+.our-team-text p{
+    font-weight: 200;
+}
+.our-team-text .fab{
+    font-size: 1.5rem;
+    margin-right: 2rem;
+}
+.our-team-text .fas{
+    padding: 2rem;
+    border: none;
+    border-radius: 50%;
+    color: #333;
+    background-color: #E8E8E8;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    margin-right: 2rem;
+}
+.our-team-text .fas:hover{
+    /* outline-style: dotted;
+    outline-color: red;
+    outline-width: 3px;
+    outline-offset: 5px; */
+    /* box-shadow: 0 0 3px red; */
+    background-color: red;
+    color: white;
+    /* border: 1px dotted red; */
+}
+/* You needs */
+.your-needs-container{
+    padding: 1rem 0;
+}
+.part-1 h2{
+    margin-left: 1rem;
+    font-weight: 800;
+    text-align: start;
+    font-size: 4rem;
+    letter-spacing: 0.25rem;
+}
+.part-1 img{
+    width: 80%;
+    height: auto;
+}
+.part-2 input, .part-2 textarea{
+    padding: 0.6rem 0.5rem;
+    width: 100%;
+}
+.part-2 input{
+    margin-bottom: 1rem;
+}
+.part-2 .btn{
+    margin: 1rem 1rem;
+}
+/* ::placeholder{
+    padding: 0.5rem;
+} */
+/* Quick-links */
+#logo-bottom p{
+    font-size: 1.5rem;
+    padding: 1rem 0;
+    margin: 1rem 1rem;
+}
+ #guarantee-text, #contacts{
+    width: 90%;
+    margin: 0 5%; 
+    border-bottom: 1px solid #333;  
+}
+#guarantee-text h2, #contacts h2{
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+/* footer */
+footer{
+    text-align: center;
+}
+footer p{
+    margin: 1rem 1rem;
+}
+footer a{
+    text-decoration: none;
+    color: black;
+}
+footer i{
+    margin-left: 1rem;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 50%;
+    color: #333;
+    background-color: #EFF3F6;
+}
+/* end */
